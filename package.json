@@ -1,0 +1,32 @@
+{
+  "name": "OnsenUI-Kickstarter",
+  "version": "0.1.0",
+  "description": "OnsenUI Application Starter Project - Grunt built, Jade described, Less styled, Bower wired.",
+  "main": "node server/web_server.js",
+  "homepage": "https://github.com/viktorbezdek/OnsenUI-Kickstarter",
+  "config": {},
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "bower": "~1.2.8",
+    "grunt": "~0.4.3",
+    "grunt-contrib-less": "~0.10.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jade-plugin": "~0.5.0",
+    "grunt-contrib-jade": "~0.11.0",
+    "grunt-prettify": "~0.3.4",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-csso": "~0.6.0",
+    "grunt-remove": "~0.1.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-include-replace": "~1.2.0",
+    "grunt-bower-install": "~1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Viktor Bezděk (www.viktorbezdek.cz)",
+  "license": "CC0"
+}

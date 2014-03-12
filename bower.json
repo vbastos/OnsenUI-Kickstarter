@@ -1,0 +1,27 @@
+{
+  "name": "OnsenUI-Kickstarter",
+  "version": "0.1.0",
+  "authors": [
+    "Viktor Bezdek <viktor.bezdek@gmail.com>"
+  ],
+  "main": "server/web_server.js",
+  "license": "CC0",
+  "scripts": {
+    "start": "node server/web_server.js"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "dev",
+    "prod",
+    "src/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "onsenui": "~1.0.0",
+    "angular": "~1.2"
+  }
+}

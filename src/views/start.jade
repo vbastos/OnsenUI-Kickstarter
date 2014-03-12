@@ -1,0 +1,10 @@
+ons-page.left
+    ons-list
+        ons-list-item
+            h3 Some external data to be built as to a static template
+        each server in servers
+            - var serverinfo = JSON.stringify({url: server.url, methods: server.methods});
+            ons-list-item
+                ons-radio-button(ng-model="server", value=serverinfo, right-label=server.title, name="server-group")
+        ons-list-item.center
+            ons-button(type="large--cta",ng-click="ons.navigator.pushPage('views/page.html')") Open page

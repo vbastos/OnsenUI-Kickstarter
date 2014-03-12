@@ -1,0 +1,37 @@
+doctype
+html(lang='cs', ng-app='Rychlost')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+
+        title OnsenUI-Kickstarter
+
+        // bower:css
+        link(rel='stylesheet', href='components/onsenui/build/css/onsenui.css')
+        // endbower
+
+        // bower:js
+        script(src='components/angular/angular.js')
+        script(src='components/onsenui/build/js/onsenui.js')
+        // endbower
+
+        unless debug
+            link(rel='stylesheet', href='assets/css/style.min.css')
+            script(src="assets/js/templates.min.js")
+        else
+            link(rel='stylesheet', href='assets/css/style.css')
+            script(src="assets/js/templates.js")
+
+    body
+
+        ons-screen(page="views/navigator-start.html")
+
+        unless debug
+            script(src="models.min.js")
+            script(src="controllers.min.js")
+            script(src="app.min.js")
+        else
+            script(src="models.js")
+            script(src="controllers.js")
+            script(src="app.js")
+
