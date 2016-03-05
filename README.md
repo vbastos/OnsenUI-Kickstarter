@@ -1,3 +1,5 @@
+> __Discontinued:__ I'm not using Onsen UI anymore, so this repo won't be maintained anymore. If someone wants to take over, ping me.
+
 OnsenUI-Kickstarter
 ===================
 
